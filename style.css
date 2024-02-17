@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    height:90vh;
+}
+
+.sarch-item{
+    display: flex;
+    gap: 0.6rem;
+    width:40%;
+}
+.sarch-item input{
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.searchbtn,.profilebtn{
+    padding: 0.5rem 1rem;
+    background-color: purple;
+    color: white;
+    border-radius: 1rem;  
+    cursor: pointer;
+}
+.searchbtn:hover{
+    font-size: 0.9rem;
+    background-color: green;
+}
+.profilebtn:hover{
+    font-size: 0.9rem;
+    background-color: green;
+}
+.searchbtn:active{
+    font-size: 0.9rem;
+    background-color: rgb(15, 201, 15);
+}
+.sarch-item input:focus-visible{
+    outline: 1px solid purple;
+}
+.Hide{
+    display: none;
+}
+
+.card{
+    margin-top: 4rem;
+    padding: 3rem 2rem;
+    box-shadow: 0 0 2rem rgba(0,0,0,0.3);
+    background-color:blanchedalmond;
+    border-radius: 12px;
+}
+.card:hover{
+    cursor: pointer;
+    transform: rotate(1deg);
+    transition: 0.3s ease-in;
+}
+.avtar{
+    height:6rem;
+    width:6rem;
+}
+.avtar img{
+    height:100%;
+    width:100%;
+    border-radius: 50px;
+}
+.header{
+    display: flex;
+}
+.username{
+    margin-top: 1.8rem;
+}
+.checkprofilebtn{
+    margin:1.8rem 0.2rem 0 5rem;
+}
+.about{
+    margin-top: 2rem;
+}
+.reports{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
